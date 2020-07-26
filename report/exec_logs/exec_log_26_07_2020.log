@@ -1,0 +1,47 @@
+# Logfile created on 2020-07-26 09:44:55 -0300 by logger.rb/66358
+I, [2020-07-26T09:44:55.699682 #4552]  INFO -- : Detalhe do caps {:caps=>{:platformName=>"Android", :deviceName=>"Samsung Galaxy S9 WQHD GoogleAPI Emulator", :username=>"qa_test123456", :accessKey=>"6c4d9231-92c3-4115-bdd3-d50fdfea7c7d", :app=>"sauce-storage:product_registration.apk", :platformVersion=>"8.1", :appiumVersion=>"1.16.0", :name=>"Test Samsung Galaxy S9 WQHD GoogleAPI Emulator - Local", :autoGrantPermissions=>true, :waitForQuiescence=>false, :deviceOrientation=>"portrait", :systemPort=>8560, :newCommandTimeout=>10000}, :appium_lib=>{:server_url=>"https://qa_test123456:6c4d9231-92c3-4115-bdd3-d50fdfea7c7d@ondemand.us-west-1.saucelabs.com:443/wd/hub", :wait=>20, :export_session=>true}}
+I, [2020-07-26T09:45:48.865790 #4662]  INFO -- : Detalhe do caps {:caps=>{:platformName=>"Android", :deviceName=>"Samsung Galaxy S9 WQHD GoogleAPI Emulator", :username=>"qa_test123456", :accessKey=>"6c4d9231-92c3-4115-bdd3-d50fdfea7c7d", :app=>"sauce-storage:product_registration.apk", :platformVersion=>"8.1", :appiumVersion=>"1.16.0", :name=>"Test Samsung Galaxy S9 WQHD GoogleAPI Emulator - Local", :autoGrantPermissions=>true, :waitForQuiescence=>false, :deviceOrientation=>"portrait", :systemPort=>8560, :newCommandTimeout=>10000}, :appium_lib=>{:server_url=>"https://qa_test123456:6c4d9231-92c3-4115-bdd3-d50fdfea7c7d@ondemand.us-west-1.saucelabs.com:443/wd/hub", :wait=>20, :export_session=>true}}
+I, [2020-07-26T09:46:52.461581 #4711]  INFO -- : Detalhe do caps {:caps=>{:platformName=>"Android", :deviceName=>"Samsung Galaxy S9 WQHD GoogleAPI Emulator", :username=>"qa_test123456", :accessKey=>"6c4d9231-92c3-4115-bdd3-d50fdfea7c7d", :app=>"sauce-storage:product_registration.apk", :platformVersion=>"8.1", :appiumVersion=>"1.16.0", :name=>"Test Samsung Galaxy S9 WQHD GoogleAPI Emulator - Local", :autoGrantPermissions=>true, :waitForQuiescence=>false, :deviceOrientation=>"portrait", :systemPort=>8560, :newCommandTimeout=>10000}, :appium_lib=>{:server_url=>"https://qa_test123456:6c4d9231-92c3-4115-bdd3-d50fdfea7c7d@ondemand.us-west-1.saucelabs.com:443/wd/hub", :wait=>20, :export_session=>true}}
+I, [2020-07-26T09:47:24.616259 #4756]  INFO -- : Detalhe do caps {:caps=>{:platformName=>"Android", :deviceName=>"Samsung Galaxy S9 WQHD GoogleAPI Emulator", :username=>"qa_test123456", :accessKey=>"6c4d9231-92c3-4115-bdd3-d50fdfea7c7d", :app=>"sauce-storage:product_registration.apk", :platformVersion=>"8.1", :appiumVersion=>"1.16.0", :name=>"Test Samsung Galaxy S9 WQHD GoogleAPI Emulator - Local", :autoGrantPermissions=>true, :waitForQuiescence=>false, :deviceOrientation=>"portrait", :systemPort=>8560, :newCommandTimeout=>10000}, :appium_lib=>{:server_url=>"https://qa_test123456:6c4d9231-92c3-4115-bdd3-d50fdfea7c7d@ondemand.us-west-1.saucelabs.com:443/wd/hub", :wait=>20, :export_session=>true}}
+I, [2020-07-26T09:47:54.268284 #4829]  INFO -- : Detalhe do caps {:caps=>{:platformName=>"Android", :deviceName=>"Samsung Galaxy S9 WQHD GoogleAPI Emulator", :username=>"qa_test123456", :accessKey=>"6c4d9231-92c3-4115-bdd3-d50fdfea7c7d", :app=>"sauce-storage:product_registration.apk", :platformVersion=>"8.1", :appiumVersion=>"1.16.0", :name=>"Test Samsung Galaxy S9 WQHD GoogleAPI Emulator - Local", :autoGrantPermissions=>true, :waitForQuiescence=>false, :deviceOrientation=>"portrait", :systemPort=>8560, :newCommandTimeout=>10000}, :appium_lib=>{:server_url=>"https://qa_test123456:6c4d9231-92c3-4115-bdd3-d50fdfea7c7d@ondemand.us-west-1.saucelabs.com:443/wd/hub", :wait=>20, :export_session=>true}}
+I, [2020-07-26T09:49:38.071620 #4829]  INFO -- : Aguardou o status (true) do elemento #<Selenium::WebDriver::Element:0x00007fea0d5faf38> estar visivel!
+I, [2020-07-26T09:49:38.072320 #4829]  INFO -- : Aguardou a existência do elemento br.com.pztec.estoque:id/Button1 usando o tipo id
+I, [2020-07-26T09:49:49.815547 #4829]  INFO -- : Aguardou o status (true) do elemento #<Selenium::WebDriver::Element:0x00007fea0e36f678> estar visivel!
+I, [2020-07-26T09:49:49.815811 #4829]  INFO -- : Aguardou a existência do elemento br.com.pztec.estoque:id/btn_gravar_assunto usando o tipo id
+I, [2020-07-26T09:49:52.542767 #4829]  INFO -- : Aguardou o status (true) do elemento #<Selenium::WebDriver::Element:0x00007fea0d6f8ea8> estar visivel!
+I, [2020-07-26T09:49:52.542874 #4829]  INFO -- : Aguardou a existência do elemento br.com.pztec.estoque:id/deletar usando o tipo id
+I, [2020-07-26T09:49:53.460350 #4829]  INFO -- : Retornou a lista de texto da página
+I, [2020-07-26T09:49:56.218282 #4829]  INFO -- : Fim da execução do cenário: ##Cadastrar um novo produto no estoque## com o status: SUCESS
+I, [2020-07-26T09:50:34.963101 #4829]  INFO -- : Aguardou o status (true) do elemento #<Selenium::WebDriver::Element:0x00007fea110e6778> estar visivel!
+I, [2020-07-26T09:50:34.964467 #4829]  INFO -- : Aguardou a existência do elemento br.com.pztec.estoque:id/Button1 usando o tipo id
+I, [2020-07-26T09:50:46.789936 #4829]  INFO -- : Aguardou o status (true) do elemento #<Selenium::WebDriver::Element:0x00007fea0e6c5110> estar visivel!
+I, [2020-07-26T09:50:46.790078 #4829]  INFO -- : Aguardou a existência do elemento br.com.pztec.estoque:id/btn_gravar_assunto usando o tipo id
+I, [2020-07-26T09:50:48.996292 #4829]  INFO -- : Aguardou o status (true) do elemento #<Selenium::WebDriver::Element:0x00007fea0ee5ba78> estar visivel!
+I, [2020-07-26T09:50:48.996452 #4829]  INFO -- : Aguardou a existência do elemento br.com.pztec.estoque:id/deletar usando o tipo id
+I, [2020-07-26T09:50:50.189584 #4829]  INFO -- : Retornou a lista de texto da página
+I, [2020-07-26T09:50:53.059870 #4829]  INFO -- : Fim da execução do cenário: ##Cadastrar um novo produto no estoque## com o status: SUCESS
+I, [2020-07-26T09:51:30.270352 #4829]  INFO -- : Aguardou o status (true) do elemento #<Selenium::WebDriver::Element:0x00007fea11274f40> estar visivel!
+I, [2020-07-26T09:51:30.271647 #4829]  INFO -- : Aguardou a existência do elemento br.com.pztec.estoque:id/Button1 usando o tipo id
+I, [2020-07-26T09:51:40.191952 #4829]  INFO -- : Aguardou o status (true) do elemento #<Selenium::WebDriver::Element:0x00007fea0ee68e08> estar visivel!
+I, [2020-07-26T09:51:40.192094 #4829]  INFO -- : Aguardou a existência do elemento br.com.pztec.estoque:id/btn_gravar_assunto usando o tipo id
+I, [2020-07-26T09:51:42.055035 #4829]  INFO -- : Aguardou o status (true) do elemento #<Selenium::WebDriver::Element:0x00007fea112aa5f0> estar visivel!
+I, [2020-07-26T09:51:42.055175 #4829]  INFO -- : Aguardou a existência do elemento br.com.pztec.estoque:id/deletar usando o tipo id
+I, [2020-07-26T09:51:43.866803 #4829]  INFO -- : Aguardou o status (true) do elemento #<Selenium::WebDriver::Element:0x00007fea112d3568> estar visivel!
+I, [2020-07-26T09:51:43.866952 #4829]  INFO -- : Aguardou a existência do elemento android:id/button1 usando o tipo id
+I, [2020-07-26T09:51:45.524215 #4829]  INFO -- : Aguardou o status (true) do elemento #<Selenium::WebDriver::Element:0x00007fea0e7981f0> estar visivel!
+I, [2020-07-26T09:51:45.525274 #4829]  INFO -- : Aguardou a existência do elemento br.com.pztec.estoque:id/Button1 usando o tipo id
+I, [2020-07-26T09:52:08.078289 #4829]  INFO -- : Fim da execução do cenário: ##Excluir um novo produto com sucesso## com o status: SUCESS
+I, [2020-07-26T09:52:44.744735 #4829]  INFO -- : Aguardou o status (true) do elemento #<Selenium::WebDriver::Element:0x00007fea0e4d2a88> estar visivel!
+I, [2020-07-26T09:52:44.744886 #4829]  INFO -- : Aguardou a existência do elemento br.com.pztec.estoque:id/Button1 usando o tipo id
+I, [2020-07-26T09:52:57.137933 #4829]  INFO -- : Aguardou o status (true) do elemento #<Selenium::WebDriver::Element:0x00007fea0ee0be10> estar visivel!
+I, [2020-07-26T09:52:57.138208 #4829]  INFO -- : Aguardou a existência do elemento br.com.pztec.estoque:id/btn_gravar_assunto usando o tipo id
+I, [2020-07-26T09:52:59.348835 #4829]  INFO -- : Aguardou o status (true) do elemento #<Selenium::WebDriver::Element:0x00007fea0ebf4b18> estar visivel!
+I, [2020-07-26T09:52:59.348973 #4829]  INFO -- : Aguardou a existência do elemento br.com.pztec.estoque:id/editar usando o tipo id
+I, [2020-07-26T09:53:02.370124 #4829]  INFO -- : Aguardou o status (true) do elemento #<Selenium::WebDriver::Element:0x00007fea0ee43900> estar visivel!
+I, [2020-07-26T09:53:02.370250 #4829]  INFO -- : Aguardou a existência do elemento br.com.pztec.estoque:id/txt_codigo usando o tipo id
+I, [2020-07-26T09:53:11.021099 #4829]  INFO -- : Aguardou o status (true) do elemento #<Selenium::WebDriver::Element:0x00007fea1123d338> estar visivel!
+I, [2020-07-26T09:53:11.021265 #4829]  INFO -- : Aguardou a existência do elemento br.com.pztec.estoque:id/btn_gravar_assunto usando o tipo id
+I, [2020-07-26T09:53:13.220614 #4829]  INFO -- : Aguardou o status (true) do elemento #<Selenium::WebDriver::Element:0x00007fea0ddf19f8> estar visivel!
+I, [2020-07-26T09:53:13.220870 #4829]  INFO -- : Aguardou a existência do elemento br.com.pztec.estoque:id/editar usando o tipo id
+I, [2020-07-26T09:53:13.791662 #4829]  INFO -- : Retornou a lista de texto da página
+I, [2020-07-26T09:53:16.599623 #4829]  INFO -- : Fim da execução do cenário: ##Editar um produto com sucesso## com o status: SUCESS

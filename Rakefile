@@ -1,36 +1,14 @@
 require 'yaml'
 require 'rake'
 require 'json'
+require "uri"
+require "pry"
+require "net/http"
 require 'open3'
-
-desc 'Abrir emulador para plataforma android'
-task :run_emulador, %i[nome_emulador] do |_task, args|
-  run_emulador(args.nome_emulador)
-end
 
 desc 'Validar de código ruby'
 task :rubocop do
   run_rubocop
-end
-
-desc 'Abrir o appium'
-task :run_appium do
-  run_appium
-end
-
-desc 'Rodar os teste no sauce_labs para Android'
-task :run_paralell_sauce_labs, %i[plataforma type_test] do |_task, args|
-  run_sauce_labs(args.plataforma, args.type_test)
-end
-
-desc 'gerar ipa para projeto app calculadora'
-task :generate_ipa do
-  generate_ipa_ios
-end
-
-desc 'gerar apk para projeto app calculadora'
-task :generate_apk do
-  generate_apk_android
 end
 
 desc 'Retonar nome de simulador ios'
@@ -46,6 +24,11 @@ end
 desc 'Run Gherkin Linter e Rubocop'
 task :run_linters do
   run_linters
+end
+
+desc 'fazer upload na sauce'
+task :upload_apk do
+  upload_apk
 end
 
 def run_linters
@@ -85,12 +68,11 @@ def get_list_simulator(version)
   puts array_simulator
 end
 
-def run_sauce_labs(plataforma, type_test)
-  puts 'Inicinado testes...'
-  total_device = %w[emulador_sauce_android simulador_sauce_ios].include?(plataforma) ? 3 : 5
-  if type_test.eql?('bvt')
-    system "TYPE_TEST=#{type_test} PARALLEL=#{plataforma} SO=#{plataforma} ENVIRONMENT_TYPE=uat parallel_cucumber features/ -n #{total_device} -o '--tags @bvt' --ignore-tags @wip -t cucumber --group-by scenarios --quiet --verbose-rerun-command"
-  else
-    system "TYPE_TEST=#{type_test} PARALLEL=#{plataforma} SO=#{plataforma} ENVIRONMENT_TYPE=uat parallel_cucumber features/ -n #{total_device}  --ignore-tags @wip --ignore-tags @bvt -t cucumber --group-by scenarios --quiet --verbose-rerun-command"
-  end
+def upload_apk
+  file = File.expand_path('', __dir__)
+  user = 'curl -u qa_test123456:6c4d9231-92c3-4115-bdd3-d50fdfea7c7d'
+  verbo = '-X POST -H "Content-Type: application/octet-stream" '
+  url = 'https://saucelabs.com/rest/v1/storage/qa_test123456/product_registration.apk\?overwrite\=true --data-binary'
+  file_apk = "@#{file}/app/version/1_0_0/product_registration.apk"
+  system "#{user} #{verbo} #{url} #{file_apk}"
 end

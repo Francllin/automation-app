@@ -1,4 +1,4 @@
 sauce_app:
   url: 'https://username:access_key@ondemand.us-west-1.saucelabs.com:443/wd/hub'
-  username: ''
-  access_key: ''
+  username: 'qa_test123456'
+  access_key: '6c4d9231-92c3-4115-bdd3-d50fdfea7c7d'

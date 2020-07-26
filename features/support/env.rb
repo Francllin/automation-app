@@ -19,6 +19,9 @@ require 'selenium-webdriver'
 require 'touch_action'
 require 'json'
 
+username ||= ENV['SAUCE_USERNAME']
+access_key ||= ENV['SAUCE_ACCESS_KEY']
+
 Dir["#{File.expand_path('', __dir__)}/page_helper/*page_helper.rb"].map { |file| require_relative file }
 
 DADOS_SAUCE = YAML.load_file(File.expand_path('../../config/ondemand.yml', __dir__))
@@ -75,10 +78,6 @@ else
 end
 
 caps[:appium_lib][:export_session] = true
-
-Before do
-  puts('Rodando no device: ' + caps[:caps][:deviceName])
-end
 
 LOGGER.info("Detalhe do caps #{caps}")
 
