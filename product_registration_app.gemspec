@@ -24,7 +24,7 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency 'appium_console'
   spec.add_dependency 'appium_lib'
-  spec.add_dependency 'cucumber', '~> 3'
+  spec.add_dependency 'cucumber'
   spec.add_dependency 'cuke_linter'
   spec.add_dependency 'faker'
   spec.add_dependency 'ffi'
