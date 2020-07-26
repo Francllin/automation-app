@@ -18,6 +18,7 @@ pipeline {
             echo 'rodar os teste na farm'
             sh 'rake upload_apk'
             sh 'bundle exec cucumber -p emulador_sauce_android -p samsung_galaxy_s9'
+            cucumber failedFeaturesNumber: -1, failedScenariosNumber: -1, failedStepsNumber: -1, fileIncludePattern: '**/*.json', jsonReportDirectory: 'report', pendingStepsNumber: -1, skippedStepsNumber: -1, sortingMethod: 'ALPHABETICAL', undefinedStepsNumber: -1
          }
         }
         stage('UAT') {
