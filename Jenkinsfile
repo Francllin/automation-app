@@ -15,7 +15,7 @@ pipeline {
         }
         stage('Test') {
          steps {
-            echo 'rodar os teste'
+            echo 'rodar os teste na farm'
             sh 'rake upload_apk'
             sh 'bundle exec cucumber -p emulador_sauce_android -p samsung_galaxy_s9'
          }
