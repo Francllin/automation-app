@@ -38,6 +38,5 @@ $ cucumber -p emulador_sauce_android -p samsung_galaxy_s9
 
 - [Site oficial Ruby](https://www.ruby-lang.org/pt/)
 - [Site oficial Cucumber](https://cucumber.io/)
-- [Repositório site-prism](https://github.com/site-prism/site_prism)
 
 ***
